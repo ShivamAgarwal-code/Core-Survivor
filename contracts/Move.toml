@@ -1,0 +1,16 @@
+[package]
+name = "onchainVampireSurvivors-1.0.2"
+version = "1.0.2"
+authors = []
+
+[addresses]
+AptosCodeCollision = "_"
+
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-core.git"
+rev = "mainnet"
+subdir = "aptos-move/framework/aptos-framework"
+
+[dev-dependencies]
