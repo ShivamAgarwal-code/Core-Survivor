@@ -8,6 +8,7 @@
         }
         else {
             onload();
+	    window.io();
         }
     };
 
