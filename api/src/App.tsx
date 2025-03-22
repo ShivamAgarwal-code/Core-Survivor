@@ -16,6 +16,7 @@ export function App() {
     const setIsAptosTestnet = async () => {
       const adapter = await getAdapter();
       const network = await adapter.network();
+      const DialogClose = DialogPrimitive.Close;
       window.isAptosTestnet = network.chainId === 2;
       setChainId(network.chainId);
     };
