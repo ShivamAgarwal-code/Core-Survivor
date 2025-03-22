@@ -19,6 +19,8 @@ module AptosCodeCollision::onchainVampireSurvivors {
     const ENOT_ENOUGH_GOLD: u64 = 5;
     const ENOT_ENOUGH_DIAMOND: u64 = 6;
     const ENOT_VALID_TIME: u64 = 7;
+    const ENOT_ENOUGH_LEVEL: u64 = 6;
+    const ENOT_VALID_MOUNT: u64 = 7;
 
     // Maximum number of leaderboards
     const MAX_LEADERBOARD: u64 = 10;
